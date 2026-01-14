@@ -1,25 +1,25 @@
 ﻿using MongoDB.Bson;
 using MongoDB.Bson.Serialization.Attributes;
 
-namespace HumoApp.Models;
-
-public class Analysis
+namespace HumoApp.Models
 {
-    [BsonId]
-    [BsonRepresentation(BsonType.ObjectId)]
-    public string Id { get; set; } = null!;
+    public class Analysis
+    {
+        [BsonId]
+        [BsonRepresentation(BsonType.ObjectId)]
+        public string Id { get; set; } = null!;
 
-    // Entrada
-    public string Url { get; set; } = string.Empty;
+        // Input
+        public string Url { get; set; } = null!;
 
-    // Resultado
-    public string Category { get; set; } = string.Empty;
-    public int Score { get; set; }
+        // Resultado
+        public string Category { get; set; } = null!;
+        public int Score { get; set; }
 
-    public AnalysisSignals Signals { get; set; } = new();
+        public AnalysisSignals Signals { get; set; } = new();
 
-    public string Explanation { get; set; } = string.Empty;
+        public string Explanation { get; set; } = null!;
 
-    // Metadata
-    public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
+        public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
+    }
 }

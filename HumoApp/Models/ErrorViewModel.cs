@@ -1,4 +1,4 @@
-namespace HumoApp.Models
+﻿namespace HumoApp.Models
 {
     public class ErrorViewModel
     {

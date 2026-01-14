@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\agust\\Desktop\\projectos\\HumoApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6F41307D-CBAF-E8B6-034F-A1B657F8AACA}|HumoApp\\HumoApp.csproj|c:\\users\\agust\\desktop\\projectos\\humoapp\\humoapp\\dtos\\analysisresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F41307D-CBAF-E8B6-034F-A1B657F8AACA}|HumoApp\\HumoApp.csproj|solutionrelative:humoapp\\dtos\\analysisresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6F41307D-CBAF-E8B6-034F-A1B657F8AACA}|HumoApp\\HumoApp.csproj|c:\\users\\agust\\desktop\\projectos\\humoapp\\humoapp\\dtos\\analyzerequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6F41307D-CBAF-E8B6-034F-A1B657F8AACA}|HumoApp\\HumoApp.csproj|solutionrelative:humoapp\\dtos\\analyzerequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F41307D-CBAF-E8B6-034F-A1B657F8AACA}|HumoApp\\HumoApp.csproj|c:\\users\\agust\\desktop\\projectos\\humoapp\\humoapp\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F41307D-CBAF-E8B6-034F-A1B657F8AACA}|HumoApp\\HumoApp.csproj|solutionrelative:humoapp\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F41307D-CBAF-E8B6-034F-A1B657F8AACA}|HumoApp\\HumoApp.csproj|c:\\users\\agust\\desktop\\projectos\\humoapp\\humoapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F41307D-CBAF-E8B6-034F-A1B657F8AACA}|HumoApp\\HumoApp.csproj|solutionrelative:humoapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F41307D-CBAF-E8B6-034F-A1B657F8AACA}|HumoApp\\HumoApp.csproj|c:\\users\\agust\\desktop\\projectos\\humoapp\\humoapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F41307D-CBAF-E8B6-034F-A1B657F8AACA}|HumoApp\\HumoApp.csproj|solutionrelative:humoapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6F41307D-CBAF-E8B6-034F-A1B657F8AACA}|HumoApp\\HumoApp.csproj|c:\\users\\agust\\desktop\\projectos\\humoapp\\humoapp\\models\\analysissignals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,20 +27,12 @@
       "RelativeMoniker": "D:0:0:{6F41307D-CBAF-E8B6-034F-A1B657F8AACA}|HumoApp\\HumoApp.csproj|solutionrelative:humoapp\\models\\analysis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F41307D-CBAF-E8B6-034F-A1B657F8AACA}|HumoApp\\HumoApp.csproj|c:\\users\\agust\\desktop\\projectos\\humoapp\\humoapp\\modelsmongo\\analysissignals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F41307D-CBAF-E8B6-034F-A1B657F8AACA}|HumoApp\\HumoApp.csproj|solutionrelative:humoapp\\modelsmongo\\analysissignals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F41307D-CBAF-E8B6-034F-A1B657F8AACA}|HumoApp\\HumoApp.csproj|c:\\users\\agust\\desktop\\projectos\\humoapp\\humoapp\\modelsmongo\\analysis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F41307D-CBAF-E8B6-034F-A1B657F8AACA}|HumoApp\\HumoApp.csproj|solutionrelative:humoapp\\modelsmongo\\analysis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6F41307D-CBAF-E8B6-034F-A1B657F8AACA}|HumoApp\\HumoApp.csproj|c:\\users\\agust\\desktop\\projectos\\humoapp\\humoapp\\dtos\\analysisresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F41307D-CBAF-E8B6-034F-A1B657F8AACA}|HumoApp\\HumoApp.csproj|solutionrelative:humoapp\\dtos\\analysisresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6F41307D-CBAF-E8B6-034F-A1B657F8AACA}|HumoApp\\HumoApp.csproj|c:\\users\\agust\\desktop\\projectos\\humoapp\\humoapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{6F41307D-CBAF-E8B6-034F-A1B657F8AACA}|HumoApp\\HumoApp.csproj|solutionrelative:humoapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F41307D-CBAF-E8B6-034F-A1B657F8AACA}|HumoApp\\HumoApp.csproj|c:\\users\\agust\\desktop\\projectos\\humoapp\\humoapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F41307D-CBAF-E8B6-034F-A1B657F8AACA}|HumoApp\\HumoApp.csproj|solutionrelative:humoapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,21 +42,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 202,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 7,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AnalysisResultDto.cs",
-              "DocumentMoniker": "C:\\Users\\agust\\Desktop\\projectos\\HumoApp\\HumoApp\\Dtos\\AnalysisResultDto.cs",
-              "RelativeDocumentMoniker": "HumoApp\\Dtos\\AnalysisResultDto.cs",
-              "ToolTip": "C:\\Users\\agust\\Desktop\\projectos\\HumoApp\\HumoApp\\Dtos\\AnalysisResultDto.cs",
-              "RelativeToolTip": "HumoApp\\Dtos\\AnalysisResultDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-14T23:15:27.571Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
@@ -70,8 +57,51 @@
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\agust\\Desktop\\projectos\\HumoApp\\HumoApp\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "HumoApp\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\agust\\Desktop\\projectos\\HumoApp\\HumoApp\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "HumoApp\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAgAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T23:27:50.069Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\agust\\Desktop\\projectos\\HumoApp\\HumoApp\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "HumoApp\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\agust\\Desktop\\projectos\\HumoApp\\HumoApp\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "HumoApp\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T23:24:41.234Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AnalysisResultDto.cs",
+              "DocumentMoniker": "C:\\Users\\agust\\Desktop\\projectos\\HumoApp\\HumoApp\\Dtos\\AnalysisResultDto.cs",
+              "RelativeDocumentMoniker": "HumoApp\\Dtos\\AnalysisResultDto.cs",
+              "ToolTip": "C:\\Users\\agust\\Desktop\\projectos\\HumoApp\\HumoApp\\Dtos\\AnalysisResultDto.cs",
+              "RelativeToolTip": "HumoApp\\Dtos\\AnalysisResultDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T23:15:27.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "AnalyzeRequestDto.cs",
               "DocumentMoniker": "C:\\Users\\agust\\Desktop\\projectos\\HumoApp\\HumoApp\\Dtos\\AnalyzeRequestDto.cs",
               "RelativeDocumentMoniker": "HumoApp\\Dtos\\AnalyzeRequestDto.cs",
@@ -84,7 +114,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "AnalysisSignals.cs",
               "DocumentMoniker": "C:\\Users\\agust\\Desktop\\projectos\\HumoApp\\HumoApp\\Models\\AnalysisSignals.cs",
               "RelativeDocumentMoniker": "HumoApp\\Models\\AnalysisSignals.cs",
@@ -92,64 +122,12 @@
               "RelativeToolTip": "HumoApp\\Models\\AnalysisSignals.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-14T23:07:17.134Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AnalysisSignals.cs",
-              "DocumentMoniker": "C:\\Users\\agust\\Desktop\\projectos\\HumoApp\\HumoApp\\ModelsMongo\\AnalysisSignals.cs",
-              "RelativeDocumentMoniker": "HumoApp\\ModelsMongo\\AnalysisSignals.cs",
-              "ToolTip": "C:\\Users\\agust\\Desktop\\projectos\\HumoApp\\HumoApp\\ModelsMongo\\AnalysisSignals.cs",
-              "RelativeToolTip": "HumoApp\\ModelsMongo\\AnalysisSignals.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-14T16:09:54.446Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Analysis.cs",
-              "DocumentMoniker": "C:\\Users\\agust\\Desktop\\projectos\\HumoApp\\HumoApp\\ModelsMongo\\Analysis.cs",
-              "RelativeDocumentMoniker": "HumoApp\\ModelsMongo\\Analysis.cs",
-              "ToolTip": "C:\\Users\\agust\\Desktop\\projectos\\HumoApp\\HumoApp\\ModelsMongo\\Analysis.cs",
-              "RelativeToolTip": "HumoApp\\ModelsMongo\\Analysis.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-14T16:09:18.655Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Analysis.cs",
-              "DocumentMoniker": "C:\\Users\\agust\\Desktop\\projectos\\HumoApp\\HumoApp\\Models\\Analysis.cs",
-              "RelativeDocumentMoniker": "HumoApp\\Models\\Analysis.cs",
-              "ToolTip": "C:\\Users\\agust\\Desktop\\projectos\\HumoApp\\HumoApp\\Models\\Analysis.cs",
-              "RelativeToolTip": "HumoApp\\Models\\Analysis.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-14T16:06:58.982Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\agust\\Desktop\\projectos\\HumoApp\\HumoApp\\appsettings.json",
-              "RelativeDocumentMoniker": "HumoApp\\appsettings.json",
-              "ToolTip": "C:\\Users\\agust\\Desktop\\projectos\\HumoApp\\HumoApp\\appsettings.json",
-              "RelativeToolTip": "HumoApp\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-01-14T02:57:45.409Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\agust\\Desktop\\projectos\\HumoApp\\HumoApp\\Program.cs",
               "RelativeDocumentMoniker": "HumoApp\\Program.cs",
@@ -161,8 +139,29 @@
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Analysis.cs",
+              "DocumentMoniker": "C:\\Users\\agust\\Desktop\\projectos\\HumoApp\\HumoApp\\Models\\Analysis.cs",
+              "RelativeDocumentMoniker": "HumoApp\\Models\\Analysis.cs",
+              "ToolTip": "C:\\Users\\agust\\Desktop\\projectos\\HumoApp\\HumoApp\\Models\\Analysis.cs",
+              "RelativeToolTip": "HumoApp\\Models\\Analysis.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T16:09:18.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\agust\\Desktop\\projectos\\HumoApp\\HumoApp\\appsettings.json",
+              "RelativeDocumentMoniker": "HumoApp\\appsettings.json",
+              "ToolTip": "C:\\Users\\agust\\Desktop\\projectos\\HumoApp\\HumoApp\\appsettings.json",
+              "RelativeToolTip": "HumoApp\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-14T02:57:45.409Z"
             }
           ]
         }
