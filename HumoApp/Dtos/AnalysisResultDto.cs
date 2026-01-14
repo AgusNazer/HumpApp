@@ -2,9 +2,8 @@
 {
     public class AnalysisResultDto
     {
-        public string Category { get; set; } = string.Empty;
-        public int Score { get; set; }
-        public SignalsDto Signals { get; set; } = new();
-        public string Explanation { get; set; } = string.Empty;
+        public double Score { get; set; }
+        public string Verdict { get; set; }
+        public List<string> RedFlags { get; set; }
     }
 }

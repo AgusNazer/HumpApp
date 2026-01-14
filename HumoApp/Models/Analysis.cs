@@ -1,33 +1,25 @@
-﻿namespace HumoApp.Models
+﻿using MongoDB.Bson;
+using MongoDB.Bson.Serialization.Attributes;
+
+namespace HumoApp.Models;
+
+public class Analysis
 {
-    /// <summary>
-    /// Representa un análisis realizado sobre un curso (o URL).
-    /// Contiene metadata sobre cuándo y sobre qué curso se ejecutó el análisis,
-    /// además del resultado del mismo.
-    /// </summary>
-    public class Analysis
-    {
-        /// <summary>
-        /// Identificador único del análisis.
-        /// Se genera por defecto con <see cref="Guid.NewGuid"/>.
-        /// </summary>
-        public Guid Id { get; set; } = Guid.NewGuid();
+    [BsonId]
+    [BsonRepresentation(BsonType.ObjectId)]
+    public string Id { get; set; } = null!;
 
-        /// <summary>
-        /// Identificador del curso asociado a este análisis.
-        /// Corresponde a <see cref="Course.Id"/> del curso analizado.
-        /// </summary>
-        public Guid CourseId { get; set; }
+    // Entrada
+    public string Url { get; set; } = string.Empty;
 
-        /// <summary>
-        /// Fecha y hora UTC en la que se creó el análisis.
-        /// Se inicializa por defecto con <see cref="DateTime.UtcNow"/>.
-        /// </summary>
-        public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
+    // Resultado
+    public string Category { get; set; } = string.Empty;
+    public int Score { get; set; }
 
-        /// <summary>
-        /// Resultado del análisis con categoría, puntuación, señales y explicación.
-        /// </summary>
-        public AnalysisResult Result { get; set; } = new();
-    }
+    public AnalysisSignals Signals { get; set; } = new();
+
+    public string Explanation { get; set; } = string.Empty;
+
+    // Metadata
+    public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
 }
