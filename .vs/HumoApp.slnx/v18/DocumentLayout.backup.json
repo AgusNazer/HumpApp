@@ -3,6 +3,30 @@
   "WorkspaceRootPath": "C:\\Users\\agust\\Desktop\\projectos\\HumoApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6F41307D-CBAF-E8B6-034F-A1B657F8AACA}|HumoApp\\HumoApp.csproj|c:\\users\\agust\\desktop\\projectos\\humoapp\\humoapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F41307D-CBAF-E8B6-034F-A1B657F8AACA}|HumoApp\\HumoApp.csproj|solutionrelative:humoapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F41307D-CBAF-E8B6-034F-A1B657F8AACA}|HumoApp\\HumoApp.csproj|c:\\users\\agust\\desktop\\projectos\\humoapp\\humoapp\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{6F41307D-CBAF-E8B6-034F-A1B657F8AACA}|HumoApp\\HumoApp.csproj|solutionrelative:humoapp\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F41307D-CBAF-E8B6-034F-A1B657F8AACA}|HumoApp\\HumoApp.csproj|c:\\users\\agust\\desktop\\projectos\\humoapp\\humoapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6F41307D-CBAF-E8B6-034F-A1B657F8AACA}|HumoApp\\HumoApp.csproj|solutionrelative:humoapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F41307D-CBAF-E8B6-034F-A1B657F8AACA}|HumoApp\\HumoApp.csproj|c:\\users\\agust\\desktop\\projectos\\humoapp\\humoapp\\.env||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{6F41307D-CBAF-E8B6-034F-A1B657F8AACA}|HumoApp\\HumoApp.csproj|solutionrelative:humoapp\\.env||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F41307D-CBAF-E8B6-034F-A1B657F8AACA}|HumoApp\\HumoApp.csproj|c:\\users\\agust\\desktop\\projectos\\humoapp\\humoapp\\humoapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6F41307D-CBAF-E8B6-034F-A1B657F8AACA}|HumoApp\\HumoApp.csproj|solutionrelative:humoapp\\humoapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F41307D-CBAF-E8B6-034F-A1B657F8AACA}|HumoApp\\HumoApp.csproj|c:\\users\\agust\\desktop\\projectos\\humoapp\\humoapp\\models\\analysissignals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F41307D-CBAF-E8B6-034F-A1B657F8AACA}|HumoApp\\HumoApp.csproj|solutionrelative:humoapp\\models\\analysissignals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6F41307D-CBAF-E8B6-034F-A1B657F8AACA}|HumoApp\\HumoApp.csproj|c:\\users\\agust\\desktop\\projectos\\humoapp\\humoapp\\dtos\\analyzerequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6F41307D-CBAF-E8B6-034F-A1B657F8AACA}|HumoApp\\HumoApp.csproj|solutionrelative:humoapp\\dtos\\analyzerequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,24 +39,12 @@
       "RelativeMoniker": "D:0:0:{6F41307D-CBAF-E8B6-034F-A1B657F8AACA}|HumoApp\\HumoApp.csproj|solutionrelative:humoapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F41307D-CBAF-E8B6-034F-A1B657F8AACA}|HumoApp\\HumoApp.csproj|c:\\users\\agust\\desktop\\projectos\\humoapp\\humoapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F41307D-CBAF-E8B6-034F-A1B657F8AACA}|HumoApp\\HumoApp.csproj|solutionrelative:humoapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F41307D-CBAF-E8B6-034F-A1B657F8AACA}|HumoApp\\HumoApp.csproj|c:\\users\\agust\\desktop\\projectos\\humoapp\\humoapp\\models\\analysissignals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F41307D-CBAF-E8B6-034F-A1B657F8AACA}|HumoApp\\HumoApp.csproj|solutionrelative:humoapp\\models\\analysissignals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6F41307D-CBAF-E8B6-034F-A1B657F8AACA}|HumoApp\\HumoApp.csproj|c:\\users\\agust\\desktop\\projectos\\humoapp\\humoapp\\models\\analysis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6F41307D-CBAF-E8B6-034F-A1B657F8AACA}|HumoApp\\HumoApp.csproj|solutionrelative:humoapp\\models\\analysis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6F41307D-CBAF-E8B6-034F-A1B657F8AACA}|HumoApp\\HumoApp.csproj|c:\\users\\agust\\desktop\\projectos\\humoapp\\humoapp\\dtos\\analysisresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6F41307D-CBAF-E8B6-034F-A1B657F8AACA}|HumoApp\\HumoApp.csproj|solutionrelative:humoapp\\dtos\\analysisresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F41307D-CBAF-E8B6-034F-A1B657F8AACA}|HumoApp\\HumoApp.csproj|c:\\users\\agust\\desktop\\projectos\\humoapp\\humoapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{6F41307D-CBAF-E8B6-034F-A1B657F8AACA}|HumoApp\\HumoApp.csproj|solutionrelative:humoapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -57,51 +69,47 @@
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\agust\\Desktop\\projectos\\HumoApp\\HumoApp\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "HumoApp\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\agust\\Desktop\\projectos\\HumoApp\\HumoApp\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "HumoApp\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAgAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-14T23:27:50.069Z",
+              "DocumentIndex": 1,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\agust\\Desktop\\projectos\\HumoApp\\HumoApp\\.gitignore",
+              "RelativeDocumentMoniker": "HumoApp\\.gitignore",
+              "ToolTip": "C:\\Users\\agust\\Desktop\\projectos\\HumoApp\\HumoApp\\.gitignore",
+              "RelativeToolTip": "HumoApp\\.gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-01-15T15:46:39.817Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\agust\\Desktop\\projectos\\HumoApp\\HumoApp\\Models\\ErrorViewModel.cs",
-              "RelativeDocumentMoniker": "HumoApp\\Models\\ErrorViewModel.cs",
-              "ToolTip": "C:\\Users\\agust\\Desktop\\projectos\\HumoApp\\HumoApp\\Models\\ErrorViewModel.cs",
-              "RelativeToolTip": "HumoApp\\Models\\ErrorViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-14T23:24:41.234Z",
+              "DocumentIndex": 4,
+              "Title": "HumoApp",
+              "DocumentMoniker": "C:\\Users\\agust\\Desktop\\projectos\\HumoApp\\HumoApp\\HumoApp.csproj",
+              "RelativeDocumentMoniker": "HumoApp\\HumoApp.csproj",
+              "ToolTip": "C:\\Users\\agust\\Desktop\\projectos\\HumoApp\\HumoApp\\HumoApp.csproj",
+              "RelativeToolTip": "HumoApp\\HumoApp.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-01-15T15:39:43.249Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": ".env",
+              "DocumentMoniker": "C:\\Users\\agust\\Desktop\\projectos\\HumoApp\\HumoApp\\.env",
+              "RelativeDocumentMoniker": "HumoApp\\.env",
+              "ToolTip": "C:\\Users\\agust\\Desktop\\projectos\\HumoApp\\HumoApp\\.env",
+              "RelativeToolTip": "HumoApp\\.env",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-01-15T15:40:12.686Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "AnalysisResultDto.cs",
-              "DocumentMoniker": "C:\\Users\\agust\\Desktop\\projectos\\HumoApp\\HumoApp\\Dtos\\AnalysisResultDto.cs",
-              "RelativeDocumentMoniker": "HumoApp\\Dtos\\AnalysisResultDto.cs",
-              "ToolTip": "C:\\Users\\agust\\Desktop\\projectos\\HumoApp\\HumoApp\\Dtos\\AnalysisResultDto.cs",
-              "RelativeToolTip": "HumoApp\\Dtos\\AnalysisResultDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-14T23:15:27.571Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "AnalyzeRequestDto.cs",
               "DocumentMoniker": "C:\\Users\\agust\\Desktop\\projectos\\HumoApp\\HumoApp\\Dtos\\AnalyzeRequestDto.cs",
               "RelativeDocumentMoniker": "HumoApp\\Dtos\\AnalyzeRequestDto.cs",
@@ -114,7 +122,63 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\agust\\Desktop\\projectos\\HumoApp\\HumoApp\\Program.cs",
+              "RelativeDocumentMoniker": "HumoApp\\Program.cs",
+              "ToolTip": "C:\\Users\\agust\\Desktop\\projectos\\HumoApp\\HumoApp\\Program.cs",
+              "RelativeToolTip": "HumoApp\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T02:57:34.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\agust\\Desktop\\projectos\\HumoApp\\HumoApp\\appsettings.json",
+              "RelativeDocumentMoniker": "HumoApp\\appsettings.json",
+              "ToolTip": "C:\\Users\\agust\\Desktop\\projectos\\HumoApp\\HumoApp\\appsettings.json",
+              "RelativeToolTip": "HumoApp\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-14T02:57:45.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AnalysisResultDto.cs",
+              "DocumentMoniker": "C:\\Users\\agust\\Desktop\\projectos\\HumoApp\\HumoApp\\Dtos\\AnalysisResultDto.cs",
+              "RelativeDocumentMoniker": "HumoApp\\Dtos\\AnalysisResultDto.cs",
+              "ToolTip": "C:\\Users\\agust\\Desktop\\projectos\\HumoApp\\HumoApp\\Dtos\\AnalysisResultDto.cs",
+              "RelativeToolTip": "HumoApp\\Dtos\\AnalysisResultDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T23:15:27.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\agust\\Desktop\\projectos\\HumoApp\\HumoApp\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "HumoApp\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\agust\\Desktop\\projectos\\HumoApp\\HumoApp\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "HumoApp\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T23:24:41.234Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "AnalysisSignals.cs",
               "DocumentMoniker": "C:\\Users\\agust\\Desktop\\projectos\\HumoApp\\HumoApp\\Models\\AnalysisSignals.cs",
               "RelativeDocumentMoniker": "HumoApp\\Models\\AnalysisSignals.cs",
@@ -127,20 +191,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\agust\\Desktop\\projectos\\HumoApp\\HumoApp\\Program.cs",
-              "RelativeDocumentMoniker": "HumoApp\\Program.cs",
-              "ToolTip": "C:\\Users\\agust\\Desktop\\projectos\\HumoApp\\HumoApp\\Program.cs",
-              "RelativeToolTip": "HumoApp\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAArAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\agust\\Desktop\\projectos\\HumoApp\\HumoApp\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "HumoApp\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\agust\\Desktop\\projectos\\HumoApp\\HumoApp\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "HumoApp\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBGwAgAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-14T02:57:34.62Z",
+              "WhenOpened": "2026-01-14T23:27:50.069Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "Analysis.cs",
               "DocumentMoniker": "C:\\Users\\agust\\Desktop\\projectos\\HumoApp\\HumoApp\\Models\\Analysis.cs",
               "RelativeDocumentMoniker": "HumoApp\\Models\\Analysis.cs",
@@ -150,18 +214,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-14T16:09:18.655Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\agust\\Desktop\\projectos\\HumoApp\\HumoApp\\appsettings.json",
-              "RelativeDocumentMoniker": "HumoApp\\appsettings.json",
-              "ToolTip": "C:\\Users\\agust\\Desktop\\projectos\\HumoApp\\HumoApp\\appsettings.json",
-              "RelativeToolTip": "HumoApp\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-01-14T02:57:45.409Z"
             }
           ]
         }

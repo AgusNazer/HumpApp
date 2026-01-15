@@ -21,3 +21,5 @@ bld/
 
 # Visual Studio cache/options
 .vs/
+appsettings.Development.json
+.env

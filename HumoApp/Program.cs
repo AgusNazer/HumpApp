@@ -1,7 +1,28 @@
+using DotNetEnv;
+Env.Load();
+
+
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+//  Leer variables del .env
+var mongoConnection = Environment.GetEnvironmentVariable("MONGO_CONNECTION_STRING");
+var databaseName = Environment.GetEnvironmentVariable("MONGO_DATABASE");
+
+if (string.IsNullOrWhiteSpace(mongoConnection))
+{
+    throw new Exception("MongoDB connection string not configured");
+}
+
+if (string.IsNullOrWhiteSpace(databaseName))
+{
+    throw new Exception("MongoDB database name not configured");
+}
+Console.WriteLine($"Mongo: Conexion establecida con la DB");
+
+
 
 var app = builder.Build();
 
