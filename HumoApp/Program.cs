@@ -20,7 +20,7 @@ if (string.IsNullOrWhiteSpace(databaseName))
 {
     throw new Exception("MongoDB database name not configured");
 }
-Console.WriteLine($"Mongo: Conexion establecida con la DB");
+//Console.WriteLine($"Mongo: Conexion establecida con la DB");
 
 
 
