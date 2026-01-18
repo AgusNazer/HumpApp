@@ -3,18 +3,31 @@
 namespace HumoApp.Models
 {
     [BsonIgnoreExtraElements]
+    public class SignalDetail
+    {
+        [BsonElement("count")]
+        public int Count { get; set; }
+
+        [BsonElement("meaning")]
+        public string Meaning { get; set; } = null!;
+    }
+
+    [BsonIgnoreExtraElements]
     public class AnalysisSignals
     {
-        [BsonElement("promesasLaborales")]
-        public int PromesasLaborales { get; set; }
+        [BsonElement("promesa_empleo")]
+        public SignalDetail PromesaEmpleo { get; set; } = new();
 
-        [BsonElement("lenguajeExagerado")]
-        public int LenguajeExagerado { get; set; }
+        [BsonElement("promesa_sueldo")]
+        public SignalDetail PromesaSueldo { get; set; } = new();
 
-        [BsonElement("faltaTransparencia")]
-        public int FaltaTransparencia { get; set; }
+        [BsonElement("tiempo_irreal")]
+        public SignalDetail TiempoIrreal { get; set; } = new();
 
-        [BsonElement("autoridadDudosa")]
-        public int AutoridadDudosa { get; set; }
+        [BsonElement("seniority_falso")]
+        public SignalDetail SeniorityFalso { get; set; } = new();
+
+        [BsonElement("exageracion")]
+        public SignalDetail Exageracion { get; set; } = new();
     }
 }
