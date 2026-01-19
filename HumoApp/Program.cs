@@ -25,6 +25,10 @@ if (string.IsNullOrWhiteSpace(databaseName))
     throw new Exception("MongoDB database name not configured");
 }
 
+// Registrar servicio MongoDB
+builder.Services.AddSingleton<IMongoAnalysisService>(sp => 
+    new MongoAnalysisService(mongoConnection, databaseName));
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -47,7 +51,6 @@ app.MapStaticAssets();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}")
-    .WithStaticAssets();
+    pattern: "{controller=Home}/{action=Index}/{id?}");
 
 app.Run();

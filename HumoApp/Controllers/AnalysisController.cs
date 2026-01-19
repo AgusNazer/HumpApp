@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using HumoApp.Dtos;
+using HumoApp.Services;
 using System.Text.Json;
 
 namespace HumoApp.Controllers
@@ -9,11 +10,13 @@ namespace HumoApp.Controllers
     public class AnalysisController : ControllerBase
     {
         private readonly HttpClient _httpClient;
+        private readonly IMongoAnalysisService _mongoService;
         private readonly string _pythonApiUrl = "http://localhost:8000/analyze"; // Cambiar según tu URL
 
-        public AnalysisController(HttpClient httpClient)
+        public AnalysisController(HttpClient httpClient, IMongoAnalysisService mongoService)
         {
             _httpClient = httpClient;
+            _mongoService = mongoService;
         }
 
         [HttpPost]
@@ -52,19 +55,35 @@ namespace HumoApp.Controllers
                     options
                 );
 
-                if (analysisResult == null)
-                    return BadRequest("No se pudo deserializar la respuesta");
+                if (analysisResult != null)
+                {
+                    analysisResult.Url = analysis.Url;
+                    // Guardar en MongoDB
+                    await _mongoService.SaveAnalysisAsync(analysisResult);
+                }
 
                 return Ok(analysisResult);
             }
-            catch (HttpRequestException ex)
-            {
-                return StatusCode(503, new { error = "No se puede conectar con la API de Python", details = ex.Message });
-            }
             catch (Exception ex)
             {
-                return StatusCode(500, new { error = "Error interno", details = ex.Message });
+                return StatusCode(500, $"Error: {ex.Message}");
             }
+        }
+
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetAnalysis(string id)
+        {
+            var analysis = await _mongoService.GetAnalysisByIdAsync(id);
+            if (analysis == null)
+                return NotFound();
+            return Ok(analysis);
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> GetAllAnalysis()
+        {
+            var analyses = await _mongoService.GetAllAnalysisAsync();
+            return Ok(analyses);
         }
     }
 }
