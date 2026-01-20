@@ -15,6 +15,9 @@ namespace HumoApp.Dtos
 
         public string Explanation { get; set; } = null!;
 
+        [BsonElement("risk_level")]
+        public string RiskLevel { get; set; } = null!;
+
         [BsonElement("created_at")]
         public DateTime CreatedAt { get; set; }
     }

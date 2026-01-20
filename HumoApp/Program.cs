@@ -26,6 +26,7 @@ if (string.IsNullOrWhiteSpace(databaseName))
 }
 
 // Registrar servicio MongoDB
+builder.Services.AddSingleton<PythonAnalysisService>();
 builder.Services.AddSingleton<IMongoAnalysisService>(sp => 
     new MongoAnalysisService(mongoConnection, databaseName));
 

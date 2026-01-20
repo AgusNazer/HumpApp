@@ -1,18 +1,23 @@
-﻿namespace HumoApp.Services
+﻿using System.Text;
+using System.Text.Json;
+
+namespace HumoApp.Services
 {
     public class PythonAnalysisService
     {
         private readonly HttpClient _httpClient;
+        private readonly string _pythonApiUrl = "http://localhost:8000/analyze";
 
         public PythonAnalysisService(HttpClient httpClient)
         {
             _httpClient = httpClient;
-            _httpClient.BaseAddress = new Uri("http://localhost:8000"); // o el puerto que uses
+            _httpClient.BaseAddress = new Uri("http://localhost:8000"); 
         }
 
         public async Task<AnalysisResult> AnalyzeUrl(string url)
         {
-            var response = await _httpClient.PostAsJsonAsync("/analyze", new { url = url });
+            var jsonContent = JsonSerializer.Serialize(new { url = url });
+            var response = await _httpClient.PostAsync(_pythonApiUrl, new StringContent(jsonContent, Encoding.UTF8, "application/json"));
             response.EnsureSuccessStatusCode();
 
             return await response.Content.ReadFromJsonAsync<AnalysisResult>();

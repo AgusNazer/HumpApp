@@ -1,7 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using HumoApp.Dtos;
 using HumoApp.Services;
-using System.Text.Json;
 
 namespace HumoApp.Controllers
 {
@@ -9,13 +8,12 @@ namespace HumoApp.Controllers
     [ApiController]
     public class AnalysisController : ControllerBase
     {
-        private readonly HttpClient _httpClient;
+        private readonly PythonAnalysisService _pythonService;
         private readonly IMongoAnalysisService _mongoService;
-        private readonly string _pythonApiUrl = "http://localhost:8000/analyze"; // Cambiar según tu URL
 
-        public AnalysisController(HttpClient httpClient, IMongoAnalysisService mongoService)
+        public AnalysisController(PythonAnalysisService pythonService, IMongoAnalysisService mongoService)
         {
-            _httpClient = httpClient;
+            _pythonService = pythonService;
             _mongoService = mongoService;
         }
 
@@ -27,42 +25,22 @@ namespace HumoApp.Controllers
 
             try
             {
-                // Preparar el request para la API de Python
-                var request = new { url = analysis.Url };
-                var jsonContent = new StringContent(
-                    JsonSerializer.Serialize(request),
-                    System.Text.Encoding.UTF8,
-                    "application/json"
-                );
+                // 1. Python analiza la URL
+                var analysisResult = await _pythonService.AnalyzeUrl(analysis.Url);
 
-                // Llamar a la API de Python
-                var response = await _httpClient.PostAsync(_pythonApiUrl, jsonContent);
-
-                if (!response.IsSuccessStatusCode)
-                    return BadRequest("Error al analizar la URL en la API de Python");
-
-                // Leer la respuesta
-                var responseContent = await response.Content.ReadAsStringAsync();
-
-                // Deserializar con JsonSerializerOptions para manejar snake_case
-                var options = new JsonSerializerOptions
+                // 2. Convertir resultado a DTO
+                var responseDto = new AnalysisResponseDto
                 {
-                    PropertyNameCaseInsensitive = true
+                    Url = analysis.Url,
+                    Score = analysisResult.Score,
+                    Signals = new(),
+                    RiskLevel = analysisResult.RiskLevel
                 };
 
-                var analysisResult = JsonSerializer.Deserialize<AnalysisResponseDto>(
-                    responseContent,
-                    options
-                );
+                // 3. Guardar en MongoDB
+                await _mongoService.SaveAnalysisAsync(responseDto);
 
-                if (analysisResult != null)
-                {
-                    analysisResult.Url = analysis.Url;
-                    // Guardar en MongoDB
-                    await _mongoService.SaveAnalysisAsync(analysisResult);
-                }
-
-                return Ok(analysisResult);
+                return Ok(responseDto);
             }
             catch (Exception ex)
             {
