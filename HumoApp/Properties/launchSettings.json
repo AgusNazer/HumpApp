@@ -1,22 +1,48 @@
 ﻿{
   "$schema": "https://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:57341",
+      "sslPort": 44363
+    }
+  },
   "profiles": {
     "http": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,
-      "applicationUrl": "http://localhost:5275",
+      "launchUrl": "swagger",
+      "applicationUrl": "http://localhost:5000",
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "PORT": "5000"
       }
     },
     "https": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,
-      "applicationUrl": "https://localhost:7058;http://localhost:5275",
+      "launchUrl": "swagger",
+      "applicationUrl": "https://localhost:7124;http://localhost:5000",
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "PORT": "5000"
+      }
+    },
+    "humoapp": {
+      "type": "web",
+      "name": "humoapp",
+      "env": "dotnet",
+      "plan": "free",
+      "buildCommand": "dotnet publish -c Release -o out",
+      "startCommand": "cd out && dotnet *.dll --urls http://0.0.0.0:$PORT",
+      "envVars": {
+        "ASPNETCORE_ENVIRONMENT": "Production",
+        "MONGO_CONNECTION_STRING": "",
+        "MONGO_DATABASE": "HumoAppDev",
+        "PYTHON_API_URL": "https://tu-api-python.onrender.com"
       }
     }
   }

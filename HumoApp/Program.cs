@@ -1,6 +1,11 @@
 using DotNetEnv;
 using HumoApp.Services;
-Env.Load();
+
+// Solo cargar .env en desarrollo local
+if (Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT") == "Development")
+{
+    Env.Load();
+}
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
@@ -11,21 +16,24 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddControllersWithViews();
 builder.Services.AddHttpClient();
 
-//  Leer variables del .env
-var mongoConnection = Environment.GetEnvironmentVariable("MONGO_CONNECTION_STRING");
-var databaseName = Environment.GetEnvironmentVariable("MONGO_DATABASE");
-
-if (string.IsNullOrWhiteSpace(mongoConnection))
+// CORS para producción
+builder.Services.AddCors(options =>
 {
-    throw new Exception("MongoDB connection string not configured");
-}
+    options.AddPolicy("AllowAll", builder =>
+    {
+        builder.AllowAnyOrigin()
+               .AllowAnyMethod()
+               .AllowAnyHeader();
+    });
+});
 
-if (string.IsNullOrWhiteSpace(databaseName))
-{
-    throw new Exception("MongoDB database name not configured");
-}
+// Leer variables del .env o de Render
+var mongoConnection = Environment.GetEnvironmentVariable("MONGO_CONNECTION_STRING") 
+    ?? throw new Exception("MongoDB connection string not configured");
+var databaseName = Environment.GetEnvironmentVariable("MONGO_DATABASE") 
+    ?? throw new Exception("MongoDB database name not configured");
 
-// Registrar servicio MongoDB
+// Registrar servicios
 builder.Services.AddSingleton<PythonAnalysisService>();
 builder.Services.AddSingleton<IMongoAnalysisService>(sp => 
     new MongoAnalysisService(mongoConnection, databaseName));
@@ -33,13 +41,12 @@ builder.Services.AddSingleton<IMongoAnalysisService>(sp =>
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())  //  CAMBIAR A if (app.Environment.IsDevelopment())
+if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();                  
     app.UseSwaggerUI();               
 }
-
-if (!app.Environment.IsDevelopment())
+else
 {
     app.UseExceptionHandler("/Home/Error");
     app.UseHsts();
@@ -47,6 +54,7 @@ if (!app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.UseRouting();
+app.UseCors("AllowAll");
 app.UseAuthorization();
 app.MapStaticAssets();
 
@@ -54,4 +62,6 @@ app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
-app.Run();
+// Puerto dinámico: local en dev, Render en prod
+var port = Environment.GetEnvironmentVariable("PORT") ?? "5000";
+app.Run($"http://0.0.0.0:{port}");
