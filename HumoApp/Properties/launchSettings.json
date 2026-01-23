@@ -44,6 +44,15 @@
         "MONGO_DATABASE": "HumoAppDev",
         "PYTHON_API_URL": "https://tu-api-python.onrender.com"
       }
+    },
+    "docker-humoapp": {
+      "commandName": "Docker",
+      "dockerfileRunArgs": [
+        "--env",
+        "ASPNETCORE_ENVIRONMENT=Development",
+        "--env",
+        "PORT=5000"
+      ]
     }
   }
 }
