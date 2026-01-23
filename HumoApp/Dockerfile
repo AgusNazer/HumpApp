@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
+FROM mcr.microsoft.com/dotnet/sdk:10.0 AS build
 WORKDIR /src
 COPY ["HumoApp/HumoApp.csproj", "HumoApp/"]
 RUN dotnet restore "HumoApp/HumoApp.csproj"
